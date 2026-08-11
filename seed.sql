@@ -1,0 +1,8 @@
+-- Create users first in Supabase Authentication -> Users.
+-- Then insert matching profiles using each user's UUID.
+-- Example:
+-- INSERT INTO public.profiles(id,full_name,role,phone,area)
+-- VALUES('AUTH_USER_UUID','Vikash','super_admin','PHONE','All Areas');
+-- INSERT INTO public.profiles(id,full_name,role,phone,area,daily_target)
+-- VALUES('SALESPERSON_UUID','Salesperson Name','salesperson','PHONE','Jodhpur East',20);
+-- Never store passwords in this file.
